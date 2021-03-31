@@ -1,13 +1,24 @@
+.container{
+  
+}
+
 .App {
   text-align: center;
   /* background-color: black; */
   /* background-image: url("https://i.pinimg.com/originals/45/25/f9/4525f9a44fdfe0b78d714137dad76b14.png"); */
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family:  Monaco;
   color: #0f0;
-  width: 100%;
+  width: 98%;
   position: absolute;
   top: 0;
   left: 0;
+  border: dotted;
+  border-color: #0f0;
+  
+  display: flex;
+  flex-direction: column;
+  min-height: 99%;
+
 }
 
 nav a.active {
@@ -26,6 +37,75 @@ nav {
   justify-content: space-evenly;
 }
 
+.nav-btns{
+  border: dotted;
+  border-color: #0f0;
+  padding: 1%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.nav-btn{
+  text-decoration: none;
+}
+
+
+.footer {
+  border-top: dotted;
+  border-color: #0f0;
+  margin-top: auto;
+}
+
+.copyright{
+  font-size: 20px;
+  display: flex;
+  align-content: flex-start;
+  padding-left: 50px; 
+}
+
+.home-btns {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.se-btn{
+  background-color: rgb(2, 10, 0);
+  color: #0f0;
+  font-family:  Monaco;
+  font-size: 20px;
+  padding: 150px 32px;
+  border: dotted;
+  border-color: #0f0;
+  width: 40%;
+  cursor: pointer;
+}
+
+.se-btn:hover{
+  background-color: #1a7c1a;
+  color: #0f0;
+}
+
+.filmmaker-btn{
+  background-color: rgb(2, 10, 0);
+  color: #0f0;
+  font-family:  Monaco;
+  font-size: 20px;
+  padding: 150px 32px;
+  border: dotted;
+  border-color: #0f0;
+  width: 40%; 
+  cursor: pointer;
+}
+
+.filmmaker-btn:hover{
+  background-color: #1a7c1a;
+  color: #0f0;
+}
+
+.click-above {
+  margin-top: 10%;
+}
 
 
 

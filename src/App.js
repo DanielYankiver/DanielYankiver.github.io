@@ -3,6 +3,7 @@ import './App.css';
 import React, { useState } from "react";
 import { Switch, Route } from "react-router-dom";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 import Home from "./Home";
 import SoftwareEngineer from "./SoftwareEngineer";
 import Filmmaker from "./Filmmaker";
@@ -10,14 +11,15 @@ import BioContact from "./BioContact";
 import Resume from "./Resume";
 import Blogs from "./Blogs";
 
+
 function App() {
   const [page, setPage] = useState("/")
 
 
   return (
     <div className="App">
-      <h1>Logo</h1>
-      <div>
+      <h1>LOGO</h1>
+      <div className="nav-div">
         <NavBar onChangePage={setPage} />
         <Switch>
           <Route exact path="/">
@@ -43,7 +45,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-      <p>Footer</p>
+        <Footer />
     </div>
   );
 }
