@@ -79,6 +79,7 @@ nav {
   border-color: #0f0;
   width: 40%;
   cursor: pointer;
+  outline: none;
 }
 
 .se-btn:hover{
@@ -96,6 +97,7 @@ nav {
   border-color: #0f0;
   width: 40%; 
   cursor: pointer;
+  outline: none;
 }
 
 .filmmaker-btn:hover{
@@ -106,6 +108,54 @@ nav {
 .click-above {
   margin-top: 10%;
 }
+
+.reel{
+  border: dotted;
+  border-color: #0f0;
+  margin:0%;
+  padding: 0%;
+}
+
+.video-btns {
+}
+
+.videos-btn {
+  background-color: rgb(2, 10, 0);
+  color: #0f0;
+  font-family:  Monaco;
+  font-size: 15px;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: dotted;
+  border-color: #0f0;
+  width: 35%; 
+  cursor: pointer;
+  outline: none;
+}
+
+.videos-btn:hover{
+  background-color: #1a7c1a;
+  color: #0f0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
