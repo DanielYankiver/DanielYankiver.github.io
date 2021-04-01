@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState } from "react";
 import { Switch, Route } from "react-router-dom";
+import Logo from "./Logo";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import Home from "./Home";
@@ -18,7 +19,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>LOGO</h1>
+      <div>
+        <Logo />
+      </div>
       <div className="nav-div">
         <NavBar onChangePage={setPage} />
         <Switch>
