@@ -4,7 +4,7 @@ import React from "react";
 function Filmmaker() {
     
     return (
-        <div>
+        <div className="filmmaker-page">
             <br/>
             <br/>
             <iframe

@@ -7,7 +7,7 @@ function Logo() {
     
     return (
         <div>
-            <h1 className="logo" onClick={() => history.push('/')}>Logo</h1>
+            <h1 className="logo" onClick={() => history.push('/')}>DANIEL YANKIVER</h1>
         </div>
     );
 }

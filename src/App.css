@@ -3,7 +3,7 @@
 }
 
 .App {
-  text-align: center;
+  /* text-align: center; */
   /* background-color: black; */
   /* background-image: url("https://i.pinimg.com/originals/45/25/f9/4525f9a44fdfe0b78d714137dad76b14.png"); */
   font-family:  Monaco;
@@ -22,13 +22,14 @@
 }
 
 .logo{
+  text-align: center;
   cursor: pointer;
 }
 
 .logo:hover{
   /* background-color: #1a7c1a;
   color: #0f0; */
-  
+
 }
 
 nav a.active {
@@ -119,6 +120,10 @@ nav {
   margin-top: 10%;
 }
 
+.filmmaker-page{
+  text-align: center;
+}
+
 .reel{
   border: dotted;
   border-color: #0f0;
@@ -146,6 +151,36 @@ nav {
 
 .videos-btn:hover{
   background-color: #1a7c1a;
+  color: #0f0;
+}
+
+.se-projects-header{
+  text-align: center;
+}
+
+.se-projects {
+  display: flex;
+  justify-content: center;
+}
+
+.se-rocket-fuel{
+  border: dotted;
+  border-color: #0f0;
+  text-align: center;
+  margin: 4%;
+}
+.se-rocket-fuel-link{
+  color: #0f0;
+}
+
+.se-yourseum{
+  border: dotted;
+  border-color: #0f0;
+  text-align: center;
+  margin: 4%;
+  
+}
+.se-yourseum-link{
   color: #0f0;
 }
 
